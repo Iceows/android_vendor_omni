@@ -137,3 +137,6 @@ ifeq ($(ROM_BUILDTYPE),HOMEMADE)
     WITH_DEXPREOPT := true
     WITH_DEXPREOPT_PIC := true
 endif
+
+PRODUCT_EXTRA_RECOVERY_KEYS := \
+    vendor/omni/build/target/product/security/lineage
